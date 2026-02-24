@@ -2,17 +2,7 @@
 <html lang="en">
     <head>
         <title>css selectors</title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-    input[type="text"] {
-    border: 2px solid blue;
-    }
-
-    a:hover {
-    color: red;
-    }
-
-    </style>
+        <link rel="stylesheet" href="asset/css/style.css">
     </head>
     <body>
         <h1>types of selectors</h1>
@@ -22,10 +12,10 @@
         <p class="aa">the third selector is class selector</p>
         <p>the fourth selector is universal selector using <mark>*</mark>symbol</p>
         <p>the fifth selector is group selector </p>
-        <div>
-            <p>the sixth selector is descendent selector </p>
-            <h3>this selector use to select element in other element</h3>
-        </div>
+            <div>
+        <p>the sixth selector is descendent selector </p>
+        <h3>this selector use to select element in other element</h3>
+            </div>
 
         <input type="text" placeholder="attribute selector">
         <input type="password" placeholder="Password Input">
@@ -38,8 +28,40 @@
     <li><a href="#InSensitive">Insensitive internal link</a></li>
         </ul>
 
+        <div>
+            <p id="thirdParagraph">This paragraph should have a red background and blue text.</p>
+        </div>
+
+        <div id="second">
+            <p class="exampleText">Example text</p>
+        </div>
         <span>Here's a span with some text.</span>
-    <p>Here's a p with some text.</p>
-        <span>Here's a span with more text.</span>
+        <span >Here's a span with more text.</span>
+
+    <blockquote>
+        <q>
+You may shoot me with your words,<br />
+You may cut me with your eyes,<br />
+You may kill me with your hatefulness,<br />
+But still, like air, I'll rise.
+        </q>
+            <p>&mdash; Maya Angelou</p>
+    </blockquote>
+
+    <div id="container">
+        <div class="item">Item</div>
+        <div class="item">Item with more text in it which will overflow the fixed width box.</div>
+    </div>
+
+    <div class="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three <br />has <br />extra <br />text</div>
+    </div>
+    
+    <div>
+    <img src="asset/images/nature.jpg" alt="nature" />
+    </div>
+
     </body>
 </html>
